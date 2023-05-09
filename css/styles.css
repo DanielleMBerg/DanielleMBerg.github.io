@@ -1,0 +1,61 @@
+/* Navigation Bar */
+nav {
+  background-color: aquamarine;
+}
+
+.nav-item a {
+  color: black;
+  font-weight: bold;
+} 
+
+#github, #linkedin {
+  height: 30px;
+  width: 30px;
+  padding-bottom: 5px;
+}
+
+/* Header */
+.header {
+  background-image: url('../images/snow.jpeg');
+  background-size: cover;
+  color: #581845;
+  height: 70vh;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.centered {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+}
+
+/* Body */
+body {
+  /* background-color:azure; */
+  /* background-color:mintcream; */
+  background-color:ghostwhite;
+}
+
+.content {
+  color: steelblue;
+}
+
+.display-4 {
+  color: #900C3F;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: aquamarine;
+  display: grid;
+  grid-template-rows: 20px 20px 20px;
+}
+
+#copyright {
+  grid-row: 2;
+  padding-right: 30px;
+  text-align: right;
+}
+
